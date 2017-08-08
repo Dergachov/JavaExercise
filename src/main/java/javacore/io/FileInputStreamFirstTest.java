@@ -3,7 +3,6 @@ package javacore.io;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
 
 public class FileInputStreamFirstTest {
     public static void main(String[] args) throws IOException {
