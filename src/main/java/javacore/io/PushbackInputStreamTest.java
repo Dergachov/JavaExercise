@@ -6,8 +6,8 @@ import java.io.PushbackInputStream;
 
 public class PushbackInputStreamTest {
     public static void main(String[] args) throws IOException {
-        String strExp = "Hello JAVA World !!!";
-        byte bytes[] = strExp.getBytes();
+        String str = "Hello JAVA World !!!";
+        byte bytes[] = str.getBytes();
         ByteArrayInputStream bais = new ByteArrayInputStream(bytes);
         PushbackInputStream pbis = new PushbackInputStream(bais);
 
