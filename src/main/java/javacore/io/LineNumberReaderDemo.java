@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.LineNumberReader;
 
-public class LineNumberReaderTest {
+public class LineNumberReaderDemo {
     public static void main(String[] args) throws IOException {
         File file = new File("/home/serezha/javaioread5.txt");
         FileReader fr;

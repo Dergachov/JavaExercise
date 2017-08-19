@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
 
-public class PrintStreamTest {
+public class PrintStreamDemo {
     public static void main(String[] args) throws IOException {
         //PrintStream to Console
         PrintStream psConsole = new PrintStream(System.out);

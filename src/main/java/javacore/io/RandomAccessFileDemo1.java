@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 /**
  * Created by serezha on 10.08.17.
  */
-public class RandomAccessFileTest {
+public class RandomAccessFileDemo1 {
     public static void main(String[] args) throws IOException {
         String file = "/home/serezha/javaioread.txt";
         System.out.println("First read file: ");

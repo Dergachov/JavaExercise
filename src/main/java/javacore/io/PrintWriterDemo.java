@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class PrintWriterTest {
+public class PrintWriterDemo {
     public static void main(String[] args) throws IOException {
 
         //PrintWriter to file

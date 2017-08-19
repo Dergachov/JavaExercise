@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-public class RandomAccessFileTest2 {
+public class RandomAccessFileDemo2 {
     public static void main(String[] args) throws IOException {
         String file = "/home/serezha/javaioread.txt";
         RandomAccessFile raFile = null;

@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.FilterOutputStream;
 import java.io.IOException;
 
-public class FileOutputStreamTest {
+public class FileOutputStreamDemo {
     public static void main(String[] args) throws IOException {
 
         String file = "/home/serezha/javaioread.txt";

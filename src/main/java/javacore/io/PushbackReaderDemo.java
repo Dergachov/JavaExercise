@@ -4,7 +4,7 @@ import java.io.CharArrayReader;
 import java.io.IOException;
 import java.io.PushbackReader;
 
-public class PushbackReaderTest {
+public class PushbackReaderDemo {
     public static void main(String[] args) throws IOException {
         String str = "Hello JAVA World !!!";
         char[] chars = str.toCharArray();

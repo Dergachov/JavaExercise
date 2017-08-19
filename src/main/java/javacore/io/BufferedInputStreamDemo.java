@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by serezha on 12.08.17.
  */
-public class BufferedInputStreamTest {
+public class BufferedInputStreamDemo {
     public static void main(String[] args) throws IOException {
 
         String file = "/home/serezha/javaioread.txt";

@@ -5,7 +5,7 @@ import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileDescriptorTest {
+public class FileDescriptorDemo {
     public static void main(String[] args) throws IOException {
 
         FileInputStream fis1 = new FileInputStream(new File("/home/serezha/javaioread.txt"));

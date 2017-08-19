@@ -7,7 +7,7 @@ import java.security.PermissionCollection;
 /**
  * Created by serezha on 12.08.17.
  */
-public class FilePermissionTest {
+public class FilePermissionDemo {
 
     private static String file = "/home/serezha/javaioread.txt";
     private static PermissionCollection pc = null;

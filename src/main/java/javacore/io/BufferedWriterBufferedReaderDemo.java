@@ -2,7 +2,7 @@ package javacore.io;
 
 import java.io.*;
 
-public class BufferedWriterBufferedReaderTest {
+public class BufferedWriterBufferedReaderDemo {
     public static void main(String[] args) throws IOException {
         String str = "File 5\n Hello JAVA World !!!\n buffered";
         File file = new File("/home/serezha/javaioread5.txt");

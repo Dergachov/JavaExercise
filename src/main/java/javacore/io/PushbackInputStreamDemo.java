@@ -4,7 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.PushbackInputStream;
 
-public class PushbackInputStreamTest {
+public class PushbackInputStreamDemo {
     public static void main(String[] args) throws IOException {
         String str = "Hello JAVA World !!!";
         byte bytes[] = str.getBytes();

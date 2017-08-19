@@ -10,7 +10,7 @@ import java.util.Enumeration;
 /**
  * Created by serezha on 12.08.17.
  */
-public class SequenceInputStreamTest {
+public class SequenceInputStreamDemo {
     private static SequenceInputStream sis = null;
     private static FileInputStream fis1 = null;
     private static FileInputStream fis2 = null;

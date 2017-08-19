@@ -3,7 +3,7 @@ package javacore.io;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-public class ByteArrayInputStreamTest {
+public class ByteArrayInputStreamDemo {
     public static void main(String[] args) throws IOException {
         ByteArrayInputStream stream;
         int counter;
