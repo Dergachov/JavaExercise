@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-public class ObjectOutputStreamTest {
+public class ObjectOutputStreamDemo {
     public static void main(String[] args) throws IOException {
         String file = "objectTestSerial.bin";
 

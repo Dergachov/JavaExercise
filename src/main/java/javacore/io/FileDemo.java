@@ -3,7 +3,7 @@ package javacore.io;
 import java.io.File;
 import java.io.IOException;
 
-public class FileTestDemo {
+public class FileDemo {
     public static void main(String[] args) throws IOException {
         String path = "/home/serezha/javaioread.txt";
         File file = new File(path);
@@ -22,6 +22,13 @@ public class FileTestDemo {
         System.out.println("file.isHidden() " + file.isHidden());
         System.out.println("file.hashCode() " + file.hashCode());
 
+        File dirLists = new File(file.getParent());
+        String[] lists = dirLists.list();
+        if(lists.length > 0){
+            for (String list : lists) {
+                System.out.println(list);
+            }
+        }
         //file.deleteOnExit();
     }
 }
