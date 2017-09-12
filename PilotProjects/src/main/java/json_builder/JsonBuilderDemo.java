@@ -1,9 +1,11 @@
 package json_builder;
 
+import java.io.IOException;
+
 public class JsonBuilderDemo {
     /**
      * JSON Schema for example:
-     * <p>
+     *
      * {
      * "$schema": "http://json-schema.org/draft-06/schema#",
      * "$id": "http://json-schema.org/draft-06/schema#",
@@ -516,6 +518,15 @@ public class JsonBuilderDemo {
 
         doc.addBranch("default");
 
-        System.out.println(doc.toString());
+        System.out.println(doc.toString() + "\n");
+        System.out.println(doc.toRead(doc.toString()));
+
+        try {
+            String file = "json_schema.json";
+            doc.saveToFile(file);
+            System.out.println("\nSave to file: " + file + "\nComplete!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
