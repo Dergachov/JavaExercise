@@ -1,4 +1,6 @@
-package json_builder;
+package json_builder.demo;
+
+import json_builder.JsonBuilder;
 
 import java.io.IOException;
 
