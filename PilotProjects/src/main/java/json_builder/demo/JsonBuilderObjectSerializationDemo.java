@@ -1,7 +1,9 @@
-package json_builder;
+package json_builder.demo;
 
-import json_builder.employee.Address;
-import json_builder.employee.Employee;
+import json_builder.JsonBuilder;
+import json_builder.demo.employee.Address;
+import json_builder.demo.employee.Employee;
+
 
 public class JsonBuilderObjectSerializationDemo {
     public static void main(String[] args) {
